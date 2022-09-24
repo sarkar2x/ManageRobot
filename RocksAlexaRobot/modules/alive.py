@@ -11,20 +11,20 @@ from telegram import __version__ as lver
 from RocksAlexaRobot import BOT_USERNAME, OWNER_USERNAME, SUPPORT_CHAT, pgram
 
 PHOTO = [
-    "https://telegra.ph/file/8d5ae37f8b4b2b1b64763.jpg",
-    "https://telegra.ph/file/2d4d106a4b4ecacb99374.jpg",
-    "https://telegra.ph/file/e635ced7273b64341adea.jpg",
-    "https://telegra.ph/file/e42dfbac4be6ddbf1d99f.jpg",
-    "https://telegra.ph/file/db0a91985e4e963b6ef31.jpg",
+    "https://telegra.ph/file/4f51ea1bf4024a27838d2.jpg",
+    "https://telegra.ph/file/2cdc3619dc9966bb8b0c2.jpg",
+    "https://telegra.ph/file/7ae68204eacb4fb716e21.jpg",
+    "https://telegra.ph/file/1a86496f3c59cb3f6df0c.jpg",
+    "https://telegra.ph/file/362b0e068701bf0b06c10.jpg",
 ]
 
 SHREYXD = [
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ", url=f"https://t.me/{BOT_USERNAME}?start=help"),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="ʜᴇʟᴘ", url=f"https://t.me/ManagementXrobot?start=help"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/WorldChattingFriendsWCF"),
     ],
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"http://t.me/{BOT_USERNAME}?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"http://t.me/ManagementXrobot?startgroup=true"),
     ],
 ]
 
@@ -38,14 +38,14 @@ async def restart(client, m: Message):
     await accha.edit("ᴀʟɪᴠɪɴɢ...")
     await accha.delete()
     await asyncio.sleep(0.1)
-    umm = await m.reply_sticker("CAACAgUAAx0CZlupGQAChBpiuU_OFMitD3kyYKXQAAEIithQFUEAAscGAAJ9J9BVg-miAAGgEei7KQQ")
+    umm = await m.reply_sticker("CAACAgUAAx0CUldpJAACaoFjLxL36-bwxEapxfo-L8a6V_6qAgACNwcAAiBseFUbazkCcRh03CkE")
     await umm.delete()
     await asyncio.sleep(0.1)
     await m.reply_photo(
         random.choice(PHOTO),
-        caption=f"""**ʜᴇʏ​ ɪ ᴀᴍ ᴀʟᴇxᴀ ✘ ʀᴏʙᴏᴛ​**
+        caption=f"""**ʜᴇʏ​ ɪ ᴀᴍ Queen ʀᴏʙᴏᴛ​**
         ━━━━━━━━━━━━━━━━━━━
-        » **ᴍʏ ᴏᴡɴᴇʀ :** [ᴀsᴀᴅ](https://t.me/{OWNER_USERNAME})
+        » **ᴍʏ ᴏᴡɴᴇʀ :** [Sangram](https://t.me/OpSangram)
         
         » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
         
