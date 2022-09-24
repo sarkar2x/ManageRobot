@@ -33,7 +33,7 @@ async def lastname(steal):
                 response = await conv.get_response()
             except YouBlockedUserError:
                 await steal.reply(
-                    "```Error, report to @Alexa_Help```"
+                    "```Error, report to @WorldChattingFriendsWCF```"
                 )
                 return
             if r.text.startswith("Name"):
