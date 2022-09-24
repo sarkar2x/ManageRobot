@@ -45,14 +45,14 @@ def goodmorning(update, context):
     reply = f"*Hey {escape_markdown(first_name)} \n Good Morning!☀*"
     message.reply_photo(GM_IMG,reply, parse_mode=ParseMode.MARKDOWN)
     
-ASD_IMG= "https://telegra.ph/file/de8bd6a3cf61e06679f1e.jpg"
+ASD_IMG= "https://telegra.ph/file/4fe8f87bf7c5f35239644.jpg"
 @run_async
 @typing_action
 def asadali(update, context):
     message = update.effective_message
     first_name = update.effective_user.first_name
     disable_web_page_preview=True,
-    reply = f"✪ ʜɪ ɪᴛ ɪs ᴍᴇ ᴀsᴀᴅ ᴀʟɪ ᴀʟᴇxᴀ ᴏᴡɴᴇʀ\n────────────────────────\n✪ {escape_markdown(first_name)} ᴅᴏsᴛ 🥰 ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ\n────────────────────────\n✪ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍᴇ ᴠɪsɪᴛ ᴛʜɪs [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/Dr_Asad_Ali) 🥰\n────────────────────────\n✪ ──『ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ』"
+    reply = f"✪ ʜɪ ɪᴛ ɪs ᴍᴇ Sangram Queen ka king\n────────────────────────\n✪ {escape_markdown(first_name)} ᴅᴏsᴛ 🥰 ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ\n────────────────────────\n✪ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍᴇ ᴠɪsɪᴛ ᴛʜɪs [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/OpSangram) 🥰\n────────────────────────\n✪ ──『ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ』"
     message.reply_photo(ASD_IMG,reply, parse_mode=ParseMode.MARKDOWN)
     
 @run_async
@@ -196,7 +196,7 @@ def slap(update: Update, context: CallbackContext):
     throw = random.choice(fun.THROW)
 
     if update.effective_user.id == 2042185317:
-        temp = "Alexa Owner @AsadSupport Slaps You Noob 😁 {user2}"
+        temp = "Queen Owner @WCFnetwork Slaps You Noob 😁 {user2}"
 
     reply = temp.format(
         user1=user1, user2=user2, item=item, hits=hit, throws=throw)
