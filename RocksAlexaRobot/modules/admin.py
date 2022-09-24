@@ -1,6 +1,6 @@
 """
-(Copyright to @Dr_Asad_Ali
-Powered by @AsadSupport
+(Copyright to @OpSangram
+Powered by @WCFnetwork
 """
 import html
 import os
@@ -434,7 +434,7 @@ def invite(update: Update, context: CallbackContext):
     chat = update.effective_chat
 
     if chat.username:
-        update.effective_message.reply_text(f"https://t.me/{chat.username}")
+        update.effective_message.reply_text(f"https://t.me/WorldChattingFriendsWCF")
     elif chat.type == chat.SUPERGROUP or chat.type == chat.CHANNEL:
         bot_member = chat.get_member(bot.id)
         if bot_member.can_invite_users:
