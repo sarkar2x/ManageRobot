@@ -233,9 +233,9 @@ def info(update: Update, context: CallbackContext):
         return
 
     rep = message.reply_text(
-        "<code>Connecting To Alexa Server</code>", parse_mode=ParseMode.HTML)
+        "<code>Connecting To Queen Server</code>", parse_mode=ParseMode.HTML)
 
-    text = (f"╒═══「<b> Userinfo At Alexa Server :</b> 」\n"
+    text = (f"╒═══「<b> Userinfo At Queen Server :</b> 」\n"
             f"ID: <code>{user.id}</code>\n"
             f"First Name: {html.escape(user.first_name)}")
 
@@ -299,7 +299,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' \n[<a href="https://t.me/RocksAlexa/500">What is Ranks</a>]'.format(
+        text += ' \n[<a href="https://t.me/WCF_Federation/2">What is Ranks</a>]'.format(
             bot.username)
 
     try:
@@ -420,10 +420,10 @@ def stats(update: Update, context: CallbackContext):
                   [                  
                        InlineKeyboardButton(
                              text="❤️ ʜᴇᴀʀᴛ ❤️",
-                             url=f"https://t.me/Give_Me_Heart"),
+                             url=f"https://t.me/Give_A_Heart"),
                        InlineKeyboardButton(
                              text="‍‍‍👦 ɢʀᴏᴜᴘ ‍👦",
-                             url="https://t.me/Shayri_Music_Lovers")
+                             url="https://t.me/WorldChattingFriendsWCF")
                      ] 
                 ]
             ),
