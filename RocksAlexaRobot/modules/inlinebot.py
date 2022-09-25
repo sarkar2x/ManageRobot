@@ -59,11 +59,11 @@ class AioHttp:
 
 __mod_name__ = "♦️Inline"
 __help__ = f"""
-INLINE BOT SERVICE OF @AsadSupport
+INLINE BOT SERVICE OF @WCFnetwork
 I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline.
 
 ──「 Syntax 」──
-   @AsadSupport [command] [query]
+   @WCFnetwork [command] [query]
 
 ──「 Commands Available 」──
 ☫ alive - Check Bot's Stats.
