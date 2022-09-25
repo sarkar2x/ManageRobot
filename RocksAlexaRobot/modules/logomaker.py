@@ -124,7 +124,7 @@ async def logo_gen(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Alexa Help](https://t.me/Alexa_Help)",
+            caption="Logo by [WCF](https://t.me/WorldChattingFriendsWCF)",
             force_document=False,
         )
         os.remove(flnme)
@@ -207,7 +207,7 @@ async def logo_(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Asad Ali](https://t.me/Dr_Assad_Ali)",
+            caption="Logo by [WCF](https://t.me/WorldChattingFriendsWCF)",
             force_document=False,
         )
         os.remove(flnme)
