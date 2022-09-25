@@ -48,7 +48,7 @@ def kukirm(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "Rocks Alexa Chatbot Disabled By {}.".format(mention_html(user.id, user.first_name)),
+                "Queen Chatbot Disabled By {}.".format(mention_html(user.id, user.first_name)),
                 parse_mode=ParseMode.HTML,
             )
 
@@ -74,7 +74,7 @@ def kukiadd(update: Update, context: CallbackContext) -> str:
             )
         else:
             update.effective_message.edit_text(
-                "Rocks Alexa Chatbot Enabled By {}.".format(mention_html(user.id, user.first_name)),
+                "Queen Chatbot Enabled By {}.".format(mention_html(user.id, user.first_name)),
                 parse_mode=ParseMode.HTML,
             )
 
