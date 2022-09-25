@@ -53,7 +53,7 @@ DECIDE_HANDLER = ("𝗬𝗲𝘀 ☑️", "𝗜𝘁𝘁𝘂 🤏 𝗦𝗮", "𝗡
 
 ALEXA_HANDLER = (
     "𝗗𝗼𝗻'𝘁 tag me on this 𝘀𝘁𝘂𝗽𝗶𝗱 user",
-    "Only my love 𝗔𝘀𝗮𝗱 can tag me",
+    "Only my love 𝗦𝗮𝗻𝗴𝗿𝗮𝗺 can tag me",
     "How dare you to 𝘁𝗮𝗴 me on this user",
     "Any 𝗽𝗿𝗼𝗯𝗹𝗲𝗺 viro 😜",
 )
@@ -313,7 +313,7 @@ SLAP_TEMPLATES = (
     "{user2} lost his race piece!",  #No game no life reference
     "Shut up {user2}, you are just {user2}.",  #No game no life reference
     "{user1} hits {user2} with Aka si anse!",  #No game no life reference
-    "@AsadSupport scratches {user2}",  #Pixels pet cat - @AsadSupport
+    "@WCFnetwork scratches {user2}",  #Pixels pet cat - @AsadSupport
     "Majin buu ate {user2}",  #Dbz
     "Goblin slayer slays {user2}",  #Goblin Slayer
 )
@@ -443,16 +443,16 @@ SFW_STRINGS = (
   
 REPO = """━━━━━━━━━━━━━━━━━━━━━━━━
 💥 A ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ  ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ
-ᴏғ ♻️ ᴅʀ ᴀsᴀᴅ ᴀʟɪ 🔥
+ᴏғ ♻️ Sangram 🔥
 ━━━━━━━━━━━━━━━━━
 ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs ᴍᴀɴᴀɢᴇᴍᴇɴᴛ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ [𝐂𝐫𝐞𝐚𝐭𝐨𝐫] @Dr_Asad_Ali
-┣★ [𝐇𝐞𝐚𝐫𝐭]     @Give_Me_Heart
-┣★ [𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐬] @AsadSupport)
-┣★ [𝐎𝐮𝐫 𝐅𝐞𝐝] @Part_Of_Rocks)
-┣★ [𝐆𝐫𝐨𝐮𝐩] @Shayri_Music_Lovers)
+┣★ [𝐂𝐫𝐞𝐚𝐭𝐨𝐫] @OpSangram
+┣★ [𝐂𝐡𝐚𝐧𝐧𝐞𝐥]     @LegendDps
+┣★ [𝐁𝐨𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐬] @WCFnetwork)
+┣★ [𝐎𝐮𝐫 𝐅𝐞𝐝] @WCF_Federation)
+┣★ [𝐆𝐫𝐨𝐮𝐩] @WorldChattingFriendsWCF)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 
-IF HAVE ANY QUESTION OR WANT REPO THEN CONTACT » TO » MY » [OWNER] @Dr_Asad_Ali)"""
+IF HAVE ANY QUESTION OR WANT REPO THEN CONTACT » TO » MY » [OWNER] here @WorldChattingFriendsWCF)"""
