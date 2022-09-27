@@ -23,7 +23,7 @@ from RocksAlexaRobot.modules.helper_funcs.chat_status import (is_user_admin)
 from RocksAlexaRobot.modules.helper_funcs.extraction import extract_user
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-GN_IMG= "https://telegra.ph/file/52eb0e2a082550fad027a.jpg"
+GN_IMG= "https://telegra.ph/file/db125364ca12261853136.jpg"
 DECIDE_IMG= "https://telegra.ph/file/313cfbc4056bd3b5cd995.jpg"
 JUDGE_IMG= "https://telegra.ph/file/a2ebfdd262def30ad42a7.jpg"
 
@@ -45,14 +45,14 @@ def goodmorning(update, context):
     reply = f"*Hey {escape_markdown(first_name)} \n Good Morning!☀*"
     message.reply_photo(GM_IMG,reply, parse_mode=ParseMode.MARKDOWN)
     
-ASD_IMG= "https://telegra.ph/file/4fe8f87bf7c5f35239644.jpg"
+ASD_IMG= "https://telegra.ph/file/a914ba0f2be3b6505299f.jpg"
 @run_async
 @typing_action
 def asadali(update, context):
     message = update.effective_message
     first_name = update.effective_user.first_name
     disable_web_page_preview=True,
-    reply = f"✪ ʜɪ ɪᴛ ɪs ᴍᴇ Sangram Queen ka king\n────────────────────────\n✪ {escape_markdown(first_name)} ᴅᴏsᴛ 🥰 ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ\n────────────────────────\n✪ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍᴇ ᴠɪsɪᴛ ᴛʜɪs [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/OpSangram) 🥰\n────────────────────────\n✪ ──『ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ』"
+    reply = f"✪ ʜɪ ɪᴛ ɪs ᴍᴇ Sangram Queen ka king\n────────────────────────\n✪ {escape_markdown(first_name)} ᴅᴏsᴛ 🥰 ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ\n────────────────────────\n✪ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍᴇ ᴠɪsɪᴛ ᴛʜɪs [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/WorldChattingFriendsWCF) 🥰\n────────────────────────\n✪ ──『ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ』"
     message.reply_photo(ASD_IMG,reply, parse_mode=ParseMode.MARKDOWN)
     
 @run_async
@@ -257,7 +257,7 @@ def pat(update: Update, context: CallbackContext):
        
     
 GOODMORNING_HANDLER = DisableAbleMessageHandler(Filters.regex(r"(?i)(goodmorning|good morning)"), goodmorning, friendly="goodmorning")
-ASADALI_HANDLER = DisableAbleMessageHandler(Filters.regex(r"(?i)(asadali|asad)"), asadali, friendly="asadali")
+ASADALI_HANDLER = DisableAbleMessageHandler(Filters.regex(r"(?i)(King|Sangram)"), asadali, friendly="Sangram")
 GOODNIGHT_HANDLER = DisableAbleMessageHandler(Filters.regex(r"(?i)(goodnight|good night)"), goodnight, friendly="goodnight")
 DECIDE_HANDLER = DisableAbleCommandHandler("decide", decide)
 
