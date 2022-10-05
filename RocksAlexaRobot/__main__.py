@@ -91,12 +91,12 @@ PM_START_TEXT = """
 ────────────────────────
 ✪ 𝐇𝐢𝐭 /help 𝐭𝐨 𝐦𝐲 𝐏𝐨𝐰𝐞𝐫 𝐁𝐮𝐝𝐝𝐲 ✌️.
 ────────────────────────
-✪ [CHANNEL](t.me/WCFnetwork) - [SUPPORT](t.me/WorldChattingFriendsWCF)
+✪ [𝐂𝐇𝐀𝐍𝐍𝐄𝐋](t.me/WCFnetwork) ❤️ [𝐆𝐑𝐎𝐔𝐏](t.me/WorldChattingFriendsWCF)
 ────────────────────────
 ✪ ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
 """
 PMSTART_CHAT = (
-    "[ɢᴇᴛ ʙᴜsʏ ʟɪᴠɪɴɢ ᴏʀ ɢᴇᴛ ʙᴜsʏ ᴅʏɪɴɢ!!!](https://telegra.ph/file/362b0e068701bf0b06c10.jpg)",
+    "[𝐆𝐞𝐭 𝐁𝐮𝐬𝐲 𝐋𝐢𝐯𝐢𝐧𝐠 𝐨𝐫 𝐆𝐞𝐭 𝐁𝐮𝐬𝐲 𝐃𝐲𝐢𝐧𝐠!!!](https://telegra.ph/file/362b0e068701bf0b06c10.jpg)",
     "[ɪ'ᴍ ᴅʀ Sangram ᴘʀᴏᴊᴇᴄᴛ](https://telegra.ph/file/dbf549700d813ef6ddbe6.jpg)",
     "[ᴛᴜʀɴ ʏᴏᴜʀ ᴡᴏᴜɴᴅs ɪɴᴛᴏ ᴡɪsᴅᴏᴍ 🔥](https://telegra.ph/file/35e730dea457c85cc367b.mp4)",
     "[ʜᴀʜᴀʜᴀᴀ ɪ ᴀᴍ Queen!!!!](https://telegra.ph/file/4f51ea1bf4024a27838d2.jpg)", )
@@ -104,23 +104,23 @@ PMSTART_CHAT = (
 buttons = [
     [
         InlineKeyboardButton(
-                            text="💖 ᴀᴅᴅ Queen ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💖",
+                            text="🥺 𝐀𝐝𝐝 𝐌𝐞 𝐁𝐚𝐛𝐲 🥺",
                             url="t.me/ManagementXrobot?startgroup=true"),
                     ],
                    [
-                       InlineKeyboardButton(text="💌 ᴋɪɴɢ", url="t.me/OpSangram"),
-                       InlineKeyboardButton(text="💌 ғᴇᴅ", url="t.me/WCF_Federation"),
+                       InlineKeyboardButton(text="😜 𝐅𝐀𝐓𝐇𝐄𝐑 😜", url="t.me/OpSangram"),
+                       InlineKeyboardButton(text="🙎 𝐅𝐄𝐃 🙎", url="t.me/WCF_Federation"),
                      ],
                     [                  
                        InlineKeyboardButton(
-                             text="💌 ᴏᴡɴᴇʀ",
+                             text="🤘 𝐎𝐖𝐍𝐄𝐑 🤘",
                              url=f"https://t.me/Officials_Sangram"),
                        InlineKeyboardButton(
-                             text="💌 ɴᴇᴛᴡᴏʀᴋ",
+                             text="🔰 𝐍𝐄𝐓𝐖𝐎𝐑𝐊 🔰",
                              url=f"https://t.me/WorldChattingFriendsWCF"),
                         ],
                        [
-                           InlineKeyboardButton(text="💓 ʟᴏᴠᴇ", url="t.me/LegendDps"
+                           InlineKeyboardButton(text="💖 𝐋𝐎𝐕𝐄 💖", url="t.me/LegendDps"
          ),
     ],
 ]
