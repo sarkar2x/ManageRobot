@@ -107,4 +107,4 @@ __help__ = """
  - `/whatanime` Reply to picture or video.
 """
 
-__mod_name__ = "🐅 ᴡʜᴀᴛᴀɴɪᴍᴇ"
+__mod_name__ = "🐅 𝐖𝐡𝐚𝐭𝐚𝐧𝐢𝐦𝐞"
