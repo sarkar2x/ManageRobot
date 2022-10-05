@@ -419,10 +419,10 @@ def stats(update: Update, context: CallbackContext):
                 [
                   [                  
                        InlineKeyboardButton(
-                             text="❤️ ʜᴇᴀʀᴛ ❤️",
+                             text="❤️ 𝐇𝐞𝐚𝐫𝐭 ❤️",
                              url=f"https://t.me/Give_A_Heart"),
                        InlineKeyboardButton(
-                             text="‍‍‍👦 ɢʀᴏᴜᴘ ‍👦",
+                             text="‍‍‍👦 𝐆𝐫𝐨𝐮𝐩 ‍👦",
                              url="https://t.me/WorldChattingFriendsWCF")
                      ] 
                 ]
