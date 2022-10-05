@@ -147,7 +147,7 @@ DONATE_STRING = """𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐭𝐨 𝐌𝐲 𝐏𝐫𝐞�
 HELP_IMG= "https://telegra.ph/file/362b0e068701bf0b06c10.jpg"
 GROUPSTART_IMG= "https://telegra.ph/file/35e730dea457c85cc367b.mp4"
 
-PM_IMG = ( "https://telegra.ph/file/dbf549700d813ef6ddbe6.jpg",
+PM_IMG = ( "https://telegra.ph/file/0a6117b91c716a0c9cf99.jpg",
            "https://telegra.ph/file/362b0e068701bf0b06c10.jpg",
            "https://telegra.ph/file/4f51ea1bf4024a27838d2.jpg",
            "https://telegra.ph/file/2cdc3619dc9966bb8b0c2.jpg",
@@ -268,15 +268,15 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_video(
-            GROUPSTART_IMG, caption= "*ʜᴇʏ {},*\n*ᴏғғɪᴄɪᴀʟ ᴀʟᴇxᴀ ɪs ʜᴇʀᴇ*\n*ᴘᴏᴡᴇʀ ʟᴀᴠᴇʟ ᴛɪᴍᴇ* : {} ".format(
+            GROUPSTART_IMG, caption= "*𝐇𝐞𝐲 {},*\n*𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐐𝐮𝐞𝐞𝐧 𝐢𝐬 𝐇𝐞𝐫𝐞*\n*𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐋𝐞𝐯𝐞𝐥 𝐓𝐢𝐦𝐞* : {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="💌 ᴋɪɴɢ ", url=f"t.me/OpSangram"),
-                  InlineKeyboardButton(text="😎 ᴜᴘᴅᴀᴛᴇs ", url=f"t.me/WCFnetwork"),
+                  InlineKeyboardButton(text="😜 𝐅𝐀𝐓𝐇𝐄𝐑 😜 ", url=f"t.me/OpSangram"),
+                  InlineKeyboardButton(text="😎 𝐔𝐩𝐝𝐚𝐭𝐞  ", url=f"t.me/WCFnetwork"),
                   ]
                 ]
             ),
@@ -355,7 +355,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*ᴘᴏᴡᴇʀᴇᴅ ʙʏ* © [Sangram](t.me/OpSangram) *ᴀɴᴅ* [Channel](t.me/WCFnetwork)\n*ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ {} ᴍᴏᴅᴜʟᴇs:*\n".format(
+                "*𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 * © [𝐒𝐚𝐧𝐠𝐫𝐚𝐦](t.me/OpSangram) *𝐚𝐧𝐝* [𝐖𝐂𝐅 𝐍𝐞𝐭𝐰𝐨𝐫𝐤](t.me/WCFnetwork)\n*𝐇𝐞𝐫𝐞 𝐢𝐬 𝐭𝐡𝐞 𝐡𝐞𝐥𝐩 𝐟𝐨𝐫 𝐭𝐡𝐞 {} 𝐌𝐨𝐝𝐮𝐥𝐞𝐬 :*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -444,12 +444,12 @@ def get_help(update: Update, context: CallbackContext):
         if len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
             module = args[1].lower()
             update.effective_message.reply_text(
-                f"*ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴏғ* {module.capitalize()}",
+                f"*𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐦𝐞 𝐢𝐧 𝐩𝐦 𝐭𝐨 𝐠𝐞𝐭 𝐡𝐞𝐥𝐩 𝐨𝐟* {module.capitalize()}",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="ʜᴇʟᴘ",
+                                text="𝐇𝐞𝐥𝐩",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -465,7 +465,7 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ʜᴇʟᴘ",
+                            text="𝐇𝐞𝐥𝐩",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ]
@@ -477,7 +477,7 @@ def get_help(update: Update, context: CallbackContext):
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
         module = args[1].lower()
         text = (
-            "ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ *{}* ᴍᴏᴅᴜʟᴇs:\n".format(
+            "𝐇𝐞𝐫𝐞 𝐢𝐬 𝐭𝐡𝐞 𝐡𝐞𝐥𝐩 𝐟𝐨𝐫 𝐭𝐡𝐞 *{}* 𝐌𝐨𝐝𝐮𝐥𝐞𝐬 :\n".format(
                 HELPABLE[module].__mod_name__
             )
             + HELPABLE[module].__help__
@@ -714,7 +714,7 @@ def main():
         try:
             dispatcher.bot.send_photo(
                 f"@WorldChattingFriendsWCF",
-                "https://telegra.ph/file/36be820a8775f0bfc773e.jpg",
+                "https://telegra.ph/file/362b0e068701bf0b06c10.jpg",
                 caption="「 Queen 」 ɪs ᴀʟɪᴠᴇ ✌️!\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ᴀɴᴅ @WCFnetwork 🤏",
             )
         except Unauthorized:
