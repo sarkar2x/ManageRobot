@@ -23,9 +23,9 @@ from RocksAlexaRobot.modules.helper_funcs.chat_status import (is_user_admin)
 from RocksAlexaRobot.modules.helper_funcs.extraction import extract_user
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-GN_IMG= "https://telegra.ph/file/db125364ca12261853136.jpg"
-DECIDE_IMG= "https://telegra.ph/file/313cfbc4056bd3b5cd995.jpg"
-JUDGE_IMG= "https://telegra.ph/file/a2ebfdd262def30ad42a7.jpg"
+GN_IMG= "https://telegra.ph/file/2bcb9142ad61f36e3321b.jpg"
+DECIDE_IMG= "https://telegra.ph/file/bdfbfe64f184c45e27ad8.jpg"
+JUDGE_IMG= "https://telegra.ph/file/f7aa8e24ae933c98be397.jpg"
 
 
 @run_async
@@ -36,7 +36,7 @@ def goodnight(update, context):
     reply = f"*Hey {escape_markdown(first_name)} \nGood Night! 😴*"
     message.reply_photo(GN_IMG,reply, parse_mode=ParseMode.MARKDOWN)
 
-GM_IMG= "https://telegra.ph/file/9e008ed4dc87b7d155a59.jpg"
+GM_IMG= "https://telegra.ph/file/ef58b1ddd8cc56acd87a0.jpg"
 @run_async
 @typing_action
 def goodmorning(update, context):
@@ -52,7 +52,7 @@ def asadali(update, context):
     message = update.effective_message
     first_name = update.effective_user.first_name
     disable_web_page_preview=True,
-    reply = f"✪ ʜɪ ɪᴛ ɪs ᴍᴇ Sangram Queen ka king\n────────────────────────\n✪ {escape_markdown(first_name)} ᴅᴏsᴛ 🥰 ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ\n────────────────────────\n✪ ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍᴇ ᴠɪsɪᴛ ᴛʜɪs [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/WorldChattingFriendsWCF) 🥰\n────────────────────────\n✪ ──『ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ』"
+    reply = f"✪ 𝐇𝐞𝐲, 𝐌𝐲 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 𝐢𝐬 [𝐒𝐀𝐍𝐆𝐑𝐀𝐌](https://t.me/OpSangram)\n────────────────────────\n✪ {escape_markdown(first_name)} 𝐃𝐨𝐬𝐭 🥰 𝐇𝐨𝐰 𝐚𝐫𝐞 𝐲𝐨𝐮\n────────────────────────\n✪ 𝐘𝐨𝐮 𝐂𝐚𝐧 𝐕𝐢𝐬𝐢𝐭 𝐡𝐢𝐦 𝐢𝐧 [𝐖 𝐂 𝐅](https://t.me/WorldChattingFriendsWCF) 🥰\n────────────────────────\n✪ ──『𝐓𝐡𝐚𝐧𝐤𝐬 𝐟𝐨𝐫 𝐔𝐬𝐢𝐧𝐠 』"
     message.reply_photo(ASD_IMG,reply, parse_mode=ParseMode.MARKDOWN)
     
 @run_async
