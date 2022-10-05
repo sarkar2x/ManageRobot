@@ -79,9 +79,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ──『[ᴀQueen ᴍᴀɴᴀɢᴇᴍᴇɴᴛ](https://telegra.ph/file/dbf549700d813ef6ddbe6.jpg)』
+ ──『[𝐐𝐔𝐄𝐄𝐍](https://telegra.ph/file/83c94d28cc385c79fc6c1.jpg)』
 
-*ʜᴇʟʟᴏ ʙᴜᴅᴅʏ ❣️ !*
+*𝐇𝐞𝐥𝐥𝐨 𝐁𝐚𝐛𝐲 ❣️ !*
 ✪ ɪ ᴀᴍ Queen sᴜᴘᴇʀ ᴀᴅᴠᴀɴᴄᴇᴅ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴜsᴇғᴜʟʟ ғᴇᴀᴛᴜʀᴇ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀs ʙᴜᴅᴅʏ 😔
 ────────────────────────
 × *Queen ɪs ᴀ ɴᴀᴍᴇ ᴏғ sᴜᴄᴄᴇss ᴀ ᴘᴏᴡᴇʀғᴜʟʟ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ*
