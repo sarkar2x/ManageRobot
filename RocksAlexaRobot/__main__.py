@@ -79,7 +79,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ──『[𝐐𝐔𝐄𝐄𝐍](https://telegra.ph/file/83c94d28cc385c79fc6c1.jpg)』
+ ──『[ֆǟʀӄǟʀ](https://te.legra.ph/file/b0a10b1bc98e29d184101.jpg)』
 
 *𝐇𝐞𝐥𝐥𝐨 𝐁𝐚𝐛𝐲 ❣️ !*
 ✪ 𝐈"𝐦 𝐭𝐡𝐞 𝐌𝐨𝐬𝐭 𝐏𝐨𝐰𝐞𝐫𝐟𝐮𝐥 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐁𝐨𝐭 𝐨𝐟 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦.
@@ -87,54 +87,53 @@ PM_START_TEXT = """
 𝐈 𝐡𝐚𝐯𝐞 𝐀𝐰𝐞𝐬𝐨𝐦𝐞 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐚𝐧𝐝 𝐧𝐨 𝐨𝐧𝐞 𝐜𝐚𝐧 𝐛𝐞𝐚𝐭 𝐦𝐞.
 ────────────────────────
 ✪ 𝐈"𝐦 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐦𝐚𝐤𝐞 𝐲𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐟𝐮𝐧 𝐚𝐧𝐝 𝐞𝐚𝐬𝐲! 𝐈 𝐡𝐚𝐯𝐞 𝐥𝐨𝐭𝐬 𝐨𝐟 𝐟𝐞𝐚𝐭𝐮𝐫𝐞𝐬, 𝐒𝐮𝐜𝐡 𝐚𝐬 𝐅𝐥𝐨𝐨𝐝 𝐂𝐨𝐧𝐭𝐫𝐨𝐥, 𝐀 𝐖𝐚𝐫𝐧𝐢𝐧𝐠 𝐒𝐲𝐬𝐭𝐞𝐦, 𝐚 𝐧𝐨𝐭𝐞 𝐊𝐞𝐞𝐩𝐢𝐧𝐠 𝐒𝐲𝐬𝐭𝐞𝐦, 𝐚𝐧𝐝 𝐞𝐯𝐞𝐧 𝐫𝐞𝐩𝐥𝐢𝐞𝐬 𝐨𝐧 𝐏𝐫𝐞𝐝𝐞𝐭𝐞𝐫𝐦𝐢𝐧𝐞𝐝 𝐟𝐢𝐥𝐭𝐞𝐫𝐬.
-✪𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 [𝐒𝐚𝐧𝐠𝐫𝐚𝐦](https://t.me/OpSangram) 𝐚𝐧𝐝 [𝐖𝐂𝐅 𝐍𝐞𝐭𝐰𝐨𝐫𝐤](https://t.me/WCFnetwork)
+✪𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 [ֆǟʀӄǟʀ](https://t.me/nirbhay_2x) 𝐚𝐧𝐝 [𝚂𝚊𝚛𝚔𝚊𝚛 𝐍𝐞𝐭𝐰𝐨𝐫𝐤](https://t.me/sarkar_network)
 ────────────────────────
 ✪ 𝐇𝐢𝐭 /help 𝐭𝐨 𝐦𝐲 𝐏𝐨𝐰𝐞𝐫 𝐁𝐮𝐝𝐝𝐲 ✌️.
 ────────────────────────
-✪ [𝐂𝐇𝐀𝐍𝐍𝐄𝐋](t.me/WCFnetwork) ❤️ [𝐆𝐑𝐎𝐔𝐏](t.me/WorldChattingFriendsWCF)
+✪ [𝐎𝐖𝐍𝐄𝐑](t.me/Nirbhay_2x) ❤️ [𝐆𝐑𝐎𝐔𝐏](t.me/Yaari_apni_apni)
 ────────────────────────
 ✪ ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
 """
 PMSTART_CHAT = (
-    "[𝐆𝐞𝐭 𝐁𝐮𝐬𝐲 𝐋𝐢𝐯𝐢𝐧𝐠 𝐨𝐫 𝐆𝐞𝐭 𝐁𝐮𝐬𝐲 𝐃𝐲𝐢𝐧𝐠!!!](https://telegra.ph/file/362b0e068701bf0b06c10.jpg)",
-    "[ɪ'ᴍ ᴅʀ Sangram ᴘʀᴏᴊᴇᴄᴛ](https://telegra.ph/file/dbf549700d813ef6ddbe6.jpg)",
+    "[𝐆𝐞𝐭 𝐁𝐮𝐬𝐲 𝐋𝐢𝐯𝐢𝐧𝐠 𝐨𝐫 𝐆𝐞𝐭 𝐁𝐮𝐬𝐲 𝐃𝐲𝐢𝐧𝐠!!!](https://te.legra.ph/file/b0a10b1bc98e29d184101.jpg)",
+    "[ɪ'ᴍ ᴅʀ Sarkar ᴘʀᴏᴊᴇᴄᴛ](https://te.legra.ph/file/b0a10b1bc98e29d184101.jpg)",
     "[ᴛᴜʀɴ ʏᴏᴜʀ ᴡᴏᴜɴᴅs ɪɴᴛᴏ ᴡɪsᴅᴏᴍ 🔥](https://telegra.ph/file/35e730dea457c85cc367b.mp4)",
-    "[ʜᴀʜᴀʜᴀᴀ ɪ ᴀᴍ Queen!!!!](https://telegra.ph/file/4f51ea1bf4024a27838d2.jpg)", )
+    "[ʜᴀʜᴀʜᴀᴀ ɪ ᴀᴍ ֆǟʀӄǟʀ!!!!](https://te.legra.ph/file/d520e1406cc42ec53de94.jpg)", )
 
 buttons = [
     [
         InlineKeyboardButton(
                             text="🥺 𝐀𝐝𝐝 𝐌𝐞 𝐁𝐚𝐛𝐲 🥺",
-                            url="t.me/ManagementXrobot?startgroup=true"),
+                            url="t.me/sarkar_X_robot?startgroup=true"),
                     ],
                    [
-                       InlineKeyboardButton(text="😜 𝐅𝐀𝐓𝐇𝐄𝐑 😜", url="t.me/OpSangram"),
-                       InlineKeyboardButton(text="🙎 𝐅𝐄𝐃 🙎", url="t.me/WCF_Federation"),
+                       InlineKeyboardButton(text=" 𝐑𝐄𝐏𝐎 ", 𝐍𝐚𝐡𝐢 𝐌𝐢𝐥𝐞𝐠𝐚 𝐂𝐡𝐮𝐭𝐢𝐲𝐚
                      ],
                     [                  
                        InlineKeyboardButton(
                              text="🤘 𝐎𝐖𝐍𝐄𝐑 🤘",
-                             url=f"https://t.me/Officials_Sangram"),
+                             url=f"https://t.me/nirbhay_2x"),
                        InlineKeyboardButton(
                              text="🔰 𝐍𝐄𝐓𝐖𝐎𝐑𝐊 🔰",
-                             url=f"https://t.me/WorldChattingFriendsWCF"),
+                             url=f"https://t.me/yaari_apni_apni"),
                         ],
                        [
-                           InlineKeyboardButton(text="💖 𝐋𝐎𝐕𝐄 💖", url="t.me/LegendDps"
+                           InlineKeyboardButton(text="💖 𝐁𝐈𝐎 💖", url="t.me/nirbha_y"
          ),
     ],
 ]
 
 HELP_STRINGS = """
-✪ 𝐇𝐞𝐲 𝐭𝐡𝐞𝐫𝐞, 𝐈"𝐦 𝐐𝐔𝐄𝐄𝐍 𝐌𝐚𝐝𝐞 𝐛𝐲 [𝐒𝐀𝐍𝐆𝐑𝐀𝐌](https://t.me/OpSangram) !
+✪ 𝐇𝐞𝐲 𝐭𝐡𝐞𝐫𝐞, 𝐈"𝐦 ֆǟʀӄǟʀ 𝐌𝐚𝐝𝐞 𝐛𝐲 [𝙽𝙸𝚁𝙱𝙷𝙰𝚈](https://t.me/nirbhay_2x) !
 ✪ 𝐈"𝐦 𝐔𝐬𝐞𝐥𝐞𝐬𝐬 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐭𝐡𝐞𝐬𝐞 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐈𝐟 𝐲𝐨𝐮 𝐖𝐚𝐧𝐧𝐚 𝐌𝐚𝐤𝐞 𝐦𝐞 𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧𝐥, 𝐭𝐡𝐞𝐧 𝐌𝐚𝐤𝐞 𝐦𝐞 𝐀𝐝𝐦𝐢𝐧 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐚𝐧𝐝 𝐑𝐮𝐧 𝐭𝐡𝐞𝐬𝐞 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬:
 ────────────────────────
 ✪ - /start: *𝐒𝐭𝐚𝐫𝐭𝐬 𝐦𝐞! 𝐘𝐨𝐮"𝐯𝐞 𝐏𝐫𝐨𝐛𝐚𝐛𝐥𝐲 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐔𝐬𝐞𝐝 𝐭𝐡𝐢𝐬.*
 ✪ - /help: *𝐒𝐞𝐧𝐝𝐬 𝐭𝐡𝐢𝐬 𝐌𝐞𝐬𝐬𝐚𝐠𝐞; 𝐈"𝐥𝐥 𝐭𝐞𝐥𝐥 𝐲𝐨𝐮 𝐌𝐨𝐫𝐞 𝐚𝐛𝐨𝐮𝐭 𝐌𝐲𝐬𝐞𝐥𝐟!*
 ✪ - /donate: *𝐆𝐢𝐯𝐞𝐬 𝐲𝐨𝐮 𝐢𝐧𝐟𝐨 𝐨𝐧 𝐇𝐨𝐰 𝐭𝐨 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐦𝐞 𝐚𝐧𝐝 𝐌𝐲 𝐂𝐫𝐞𝐚𝐭𝐨𝐫.*
 ────────────────────────
-✪ 𝐈𝐟 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐫𝐞𝐩𝐨𝐫𝐭 𝐁𝐮𝐠𝐬 𝐨𝐫 𝐡𝐚𝐯𝐞 𝐚𝐧𝐲 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 𝐨𝐧 𝐡𝐨𝐰 𝐭𝐨 𝐮𝐬𝐞 𝐦𝐞 𝐭𝐡𝐞𝐧 𝐟𝐞𝐞𝐥 𝐟𝐫𝐞𝐞 𝐭𝐨 𝐫𝐞𝐚𝐜𝐡 𝐨𝐮𝐭: @WCFnetwork 𝐎𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐭𝐨 𝐦𝐲 [𝐎𝐖𝐍𝐄𝐑](http://t.me/OpSangram)
-✪ 𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐜𝐚𝐧 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐅𝐨𝐥𝐥𝐨𝐰𝐢𝐧𝐠: [(/),(!),(?),(.),(~)](https://telegra.ph/file/7ae68204eacb4fb716e21.jpg)
+✪ 𝐈𝐟 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐫𝐞𝐩𝐨𝐫𝐭 𝐁𝐮𝐠𝐬 𝐨𝐫 𝐡𝐚𝐯𝐞 𝐚𝐧𝐲 𝐪𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 𝐨𝐧 𝐡𝐨𝐰 𝐭𝐨 𝐮𝐬𝐞 𝐦𝐞 𝐭𝐡𝐞𝐧 𝐟𝐞𝐞𝐥 𝐟𝐫𝐞𝐞 𝐭𝐨 𝐫𝐞𝐚𝐜𝐡 𝐨𝐮𝐭: @sarkar_network 𝐎𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐭𝐨 𝐦𝐲 [𝐎𝐖𝐍𝐄𝐑](http://t.me/Nirbhay_2x)
+✪ 𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐜𝐚𝐧 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐰𝐢𝐭𝐡 𝐭𝐡𝐞 𝐅𝐨𝐥𝐥𝐨𝐰𝐢𝐧𝐠: [(/),(!),(?),(.),(~)](https://te.legra.ph/file/d520e1406cc42ec53de94.jpg)
 ✪ 𝐋𝐢𝐬𝐭 𝐨𝐟 𝐀𝐥𝐥 𝐌𝐨𝐝𝐮𝐥𝐞𝐬:
 ────────────────────────
 """.format(
@@ -143,15 +142,11 @@ HELP_STRINGS = """
 )
 
 HELP_MSG = "𝐂𝐥𝐢𝐜𝐤 𝐭𝐡𝐞 𝐁𝐮𝐭𝐭𝐨𝐧 𝐁𝐞𝐥𝐨𝐰 𝐭𝐨 𝐆𝐞𝐭 𝐡𝐞𝐥𝐩 𝐌𝐚𝐧𝐮 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐏𝐌."
-DONATE_STRING = """𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐭𝐨 𝐌𝐲 𝐏𝐫𝐞𝐭𝐭𝐲 [𝐎𝐖𝐍𝐄𝐑](t.me/OpSangram)"""
-HELP_IMG= "https://telegra.ph/file/362b0e068701bf0b06c10.jpg"
+DONATE_STRING = """𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐭𝐨 𝐌𝐲 𝐏𝐫𝐞𝐭𝐭𝐲 [𝐎𝐖𝐍𝐄𝐑](t.me/nirbhay_2x)"""
+HELP_IMG= "https://te.legra.ph/file/d520e1406cc42ec53de94.jpg"
 GROUPSTART_IMG= "https://telegra.ph/file/35e730dea457c85cc367b.mp4"
 
-PM_IMG = ( "https://telegra.ph/file/0a6117b91c716a0c9cf99.jpg",
-           "https://telegra.ph/file/362b0e068701bf0b06c10.jpg",
-           "https://telegra.ph/file/4f51ea1bf4024a27838d2.jpg",
-           "https://telegra.ph/file/2cdc3619dc9966bb8b0c2.jpg",
-           "https://telegra.ph/file/7ae68204eacb4fb716e21.jpg", )
+PM_IMG = ( "https://te.legra.ph/file/66f3de5abf192db6b1baa.jpg" )
 
 
 IMPORTED = {}
@@ -268,15 +263,15 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_video(
-            GROUPSTART_IMG, caption= "*𝐇𝐞𝐲 {},*\n*𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐐𝐮𝐞𝐞𝐧 𝐢𝐬 𝐇𝐞𝐫𝐞*\n*𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐋𝐞𝐯𝐞𝐥 𝐓𝐢𝐦𝐞* : {} ".format(
+            GROUPSTART_IMG, caption= "*𝐇𝐞𝐲 {},*\n*ֆǟʀӄǟʀ 𝐢𝐬 𝐇𝐞𝐫𝐞*\n*𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐋𝐞𝐯𝐞𝐥 𝐓𝐢𝐦𝐞* : {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="😜 𝐅𝐀𝐓𝐇𝐄𝐑 😜 ", url=f"t.me/OpSangram"),
-                  InlineKeyboardButton(text="😎 𝐔𝐩𝐝𝐚𝐭𝐞  ", url=f"t.me/WCFnetwork"),
+                  InlineKeyboardButton(text="😜 𝙾𝚆𝙽𝙴𝚁 😜 ", url=f"t.me/nirbhay_2x"),
+                  InlineKeyboardButton(text="😎 𝐔𝐩𝐝𝐚𝐭𝐞  ", url=f"t.me/sarkar_network"),
                   ]
                 ]
             ),
@@ -355,7 +350,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 * © [𝐒𝐚𝐧𝐠𝐫𝐚𝐦](t.me/OpSangram) *𝐚𝐧𝐝* [𝐖𝐂𝐅 𝐍𝐞𝐭𝐰𝐨𝐫𝐤](t.me/WCFnetwork)\n*𝐇𝐞𝐫𝐞 𝐢𝐬 𝐭𝐡𝐞 𝐡𝐞𝐥𝐩 𝐟𝐨𝐫 𝐭𝐡𝐞 {} 𝐌𝐨𝐝𝐮𝐥𝐞𝐬 :*\n".format(
+                "*𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 * © [𝐒𝐀𝐑𝐊𝐀𝐑](t.me/nirbhay_2x) *𝐚𝐧𝐝* [𝚂𝙰𝚁𝙺𝙰𝚁 𝐍𝐞𝐭𝐰𝐨𝐫𝐤](t.me/sarkar_network)\n*𝐇𝐞𝐫𝐞 𝐢𝐬 𝐭𝐡𝐞 𝐡𝐞𝐥𝐩 𝐟𝐨𝐫 𝐭𝐡𝐞 {} 𝐌𝐨𝐝𝐮𝐥𝐞𝐬 :*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -713,9 +708,9 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.send_photo(
-                f"@WorldChattingFriendsWCF",
-                "https://telegra.ph/file/362b0e068701bf0b06c10.jpg",
-                caption="「 Queen 」 ɪs ᴀʟɪᴠᴇ ✌️!\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ᴀɴᴅ @WCFnetwork 🤏",
+                f"@yaari_apni_apni",
+                "https://te.legra.ph/file/66f3de5abf192db6b1baa.jpg",
+                caption="「 Sarkar 」 ɪs ᴀʟɪᴠᴇ ✌️!\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ᴀɴᴅ @Sarkar_network 🤏",
             )
         except Unauthorized:
             LOGGER.warning(
